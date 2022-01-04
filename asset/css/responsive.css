@@ -8,6 +8,14 @@
     .h-60vh{
         height: unset;
     }
+
+    .floating-left{
+        padding:10px;
+    }
+    
+    .floating-left ul li .fab{
+        font-size: 1.5rem;
+    }
  }
 
  /* Medium devices (tablets, 768px and up) */

@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url(/asset/css/utils.css);
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* @import url(/asset/css/utils.css); */
 
-body{
-    /* font-family: 'Roboto', sans-serif; */
-    font-family: 'Poppins', sans-serif;
+body {
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: "Poppins", sans-serif;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 /* unvisited link */
 a:link {
@@ -17,7 +17,7 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: var(--link-visited);
+  color: var(--link-color);
 }
 
 /* mouse over link */
@@ -30,26 +30,63 @@ a:active {
   color: var(--primary-color);
 }
 
-
-.carousel-item img{
-    height: 80vh;
-    object-fit: cover;
+.carousel-item img {
+  height: 80vh;
+  object-fit: cover;
 }
 
-.header-sticky{
-    position: sticky;
-    top: 0;
+.header-sticky {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background: var(--primary-color);
+  transition: 0.2s ease;
+}
+
+#cards .card,
+.album .card {
+  border: none;
+}
+
+#cards ol li {
+  margin-bottom: 20px;
+}
+
+.slick-slider .slick-slide {
+  padding: 15px 15px;
+}
+
+.slick-prev:before {
+  color: var(--primary-color);
+}
+
+.slick-next:before {
+  color: var(--primary-color);
+}
+
+.floating-left{
+    position: fixed;
+    top: 50%;
     left: 0;
-    width: 100%;
-    z-index: 999;
-    background: var(--primary-color);
-    transition: 0.2s ease;
+    transform: translateY(-50%);
+    background: #fff;
+    padding: 20px 20px;
+    border-radius: 0 12px 12px 0;
+    z-index: 99;
 }
 
-#cards .card{
-    border: none;
+.floating-left ul{
+    margin: 0;
+    list-style-type: none;
+    padding-left: 0;
 }
 
-#cards ol li{
+.floating-left ul :not(:last-child){
     margin-bottom: 20px;
+}
+
+.floating-left ul li .fab{
+    font-size: 2rem;
 }

@@ -25,6 +25,13 @@
     font-size: 14px;
 }
 
+.hover{
+    transition: 0.2s ease;
+}
+
+.hover:hover{
+    transform: scale(1.05);
+}
 
 
 
@@ -66,4 +73,16 @@
 }
 .h-100vh{
     height: 100vh;
+}
+.h-250{
+    height: 250px;
+}
+.h-300{
+    height: 300px;
+}
+
+
+/* Image */
+.object-fit-center{
+    object-fit: cover;
 }
