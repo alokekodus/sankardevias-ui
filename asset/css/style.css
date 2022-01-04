@@ -90,3 +90,7 @@ a:active {
 .floating-left ul li .fab{
     font-size: 2rem;
 }
+
+#gallery img{
+    height: 300px;
+}

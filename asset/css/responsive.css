@@ -1,31 +1,52 @@
- /* Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px) { 
-    .carousel-item img {
-        height: unset;
-        width: 100%;
-    }
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .carousel-item img {
+    height: unset;
+    width: 100%;
+  }
 
-    .h-60vh{
-        height: unset;
-    }
+  .h-60vh {
+    height: unset;
+  }
 
-    .floating-left{
-        padding:10px;
-    }
-    
-    .floating-left ul li .fab{
-        font-size: 1.5rem;
-    }
- }
+  .floating-left {
+    padding: 10px;
+  }
 
- /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {  }
+  .floating-left ul li .fab {
+    font-size: 1.2rem;
+  }
 
- /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {  }
+  .floating-left ul :not(:last-child) {
+    margin-bottom: 10px;
+  }
 
- /* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  }
+  .slick-slider .slick-slide {
+    padding: 15px 5px;
+  }
 
- /* XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {  }
+  .h-250 {
+    height: 150px;
+  }
+
+  #blog .card-text,
+  .lead {
+    font-size: 12px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}

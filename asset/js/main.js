@@ -1,26 +1,38 @@
-// When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
+$(document).ready(function () {
+  // When the user scrolls the page, execute myFunction
+  window.onscroll = function () {
+    myFunction();
+  };
 
-// Get the header
-var header = document.getElementById("navbar");
+  // Get the header
+  var header = document.getElementById("navbar");
 
-// Get the offset position of the navbar
-var sticky = 200;
+  // Get the offset position of the navbar
+  var sticky = 200;
 
-// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("header-sticky");
-  } else {
-    header.classList.remove("header-sticky");
+  // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+  function myFunction() {
+    if (window.pageYOffset > sticky) {
+      header.classList.add("header-sticky");
+    } else {
+      header.classList.remove("header-sticky");
+    }
   }
-}
 
+  // MAgnific popup
+  $(".gallery-load-image").magnificPopup({
+    gallery: {
+      enabled: true,
+    },
+    type: "image",
+    // other options
+  });
 
-// Blog slider
-$('.blog-slider').slick({
+  // Blog slider
+  $(".blog-slider").slick({
     centerMode: true,
     autoplay: true,
+    autoplaySpeed: 1500,
     dots: true,
     infinite: true,
     speed: 300,
@@ -33,25 +45,26 @@ $('.blog-slider').slick({
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: true
-        }
+          dots: true,
+        },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2
-        }
+          slidesToScroll: 2,
+        },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
+          slidesToScroll: 1,
+        },
+      },
       // You can unslick at a given breakpoint now by adding:
       // settings: "unslick"
       // instead of a settings object
-    ]
+    ],
   });
+});
