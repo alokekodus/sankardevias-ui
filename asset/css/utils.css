@@ -9,6 +9,10 @@
     color: var(--primary-color);
 }
 
+.primary-color-imp{
+    color: var(--primary-color) !important;
+}
+
 .secondary-color{
     color: var(--secondary-color);
 }
