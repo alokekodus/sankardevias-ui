@@ -1,4 +1,9 @@
 $(document).ready(function () {
+  // Initialize wowJS
+  new WOW({
+    mobile: false,
+  }).init();
+  
   // When the user scrolls the page, execute myFunction
   window.onscroll = function () {
     myFunction();
@@ -53,6 +58,8 @@ $(document).ready(function () {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
+          prevArrow: false,
+          nextArrow: false,
         },
       },
       {
