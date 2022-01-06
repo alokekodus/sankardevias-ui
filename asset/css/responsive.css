@@ -9,7 +9,7 @@
     height: unset;
   }
 
-  .w-400{
+  .w-400 {
     width: 100%;
   }
 
@@ -62,9 +62,35 @@
     height: auto;
   }
 
-  .library img, .hostel img{
+  .library img,
+  .hostel img {
     height: unset;
     width: 100%;
+  }
+
+  .footer .newsletter form #email {
+    width: auto;
+    height: 45px;
+  }
+
+  .footer .newsletter {
+    border-radius: 20px;
+  }
+
+  .footer .newsletter form button {
+    height: 45px;
+  }
+
+  .footer .newsletter p.display-6 {
+    font-size: 20px;
+  }
+
+  .footer .newsletter p {
+    font-size: 10px;
+  }
+
+  .footer .main-footer{
+    font-size: 10px;
   }
 }
 
