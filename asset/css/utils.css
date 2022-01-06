@@ -1,105 +1,111 @@
-:root{
-    /* --primary-color : #FDA72C; */
-    --primary-color : #0A0615;
-    --secondary-color : #801805;
-    --link-color : #0A1557;
-    --link-visited : #5D0980;
+:root {
+  /* --primary-color : #FDA72C; */
+  --primary-color: #0a0615;
+  --secondary-color: #801805;
+  --link-color: #0a1557;
+  --link-visited: #5d0980;
 }
 
-.gradient-bg{
-    background: linear-gradient(#2B65C2, #5095E4);
+.gradient-bg {
+  background: linear-gradient(#2b65c2, #5095e4);
 }
 
-.font-dancing-script{
-    font-family: 'Dancing Script', cursive;
+.font-dancing-script {
+  font-family: "Dancing Script", cursive;
 }
 
-.primary-color{
-    color: var(--primary-color);
+.primary-color {
+  color: var(--primary-color);
 }
 
-.primary-color-imp{
-    color: var(--primary-color) !important;
+.primary-color-imp {
+  color: var(--primary-color) !important;
 }
 
-.secondary-color{
-    color: var(--secondary-color);
+.secondary-color {
+  color: var(--secondary-color);
 }
 
-.primary-bg{
-    background: var(--primary-color);
+.primary-bg {
+  background: var(--primary-color);
 }
-.secondary-bg{
-    background: var(--secondary-color);
+.secondary-bg {
+  background: var(--secondary-color);
 }
 /* Sizing */
 
-.font-14{
-    font-size: 14px;
+.font-14 {
+  font-size: 14px;
 }
 
-.hover{
-    transition: 0.2s ease;
+.hover {
+  transition: 0.2s ease;
 }
 
-.hover:hover{
-    transform: scale(1.05);
+.hover:hover {
+  transform: scale(1.05);
 }
-
-
-
-
-
-
 
 /* Font weight */
 
-.font-bold-100{
-    font-weight: 100;
+.font-bold-100 {
+  font-weight: 100;
 }
-.font-bold-200{
-    font-weight: 200;
+.font-bold-200 {
+  font-weight: 200;
 }
-.font-bold-300{
-    font-weight: 300;
+.font-bold-300 {
+  font-weight: 300;
 }
-.font-bold-400{
-    font-weight: 400;
+.font-bold-400 {
+  font-weight: 400;
 }
-.font-bold-500{
-    font-weight: 500;
+.font-bold-500 {
+  font-weight: 500;
 }
-.font-bold-600{
-    font-weight: 600;
+.font-bold-600 {
+  font-weight: 600;
 }
-.font-bold-700{
-    font-weight: 700;
+.font-bold-700 {
+  font-weight: 700;
 }
 
-
-
+.drop-caps:first-child:first-letter {
+  color: #903;
+  float: left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
 
 /* Height */
 
-.h-60vh{
-    height: 60vh;
+.h-60vh {
+  height: 60vh;
 }
-.h-100vh{
-    height: 100vh;
+.h-100vh {
+  height: 100vh;
 }
-.h-250{
-    height: 250px;
+.h-250 {
+  height: 250px;
 }
-.h-300{
-    height: 300px;
+.h-300 {
+  height: 300px;
 }
 
+/* width */
+.w-400{
+    width: 400px;
+}
 
 /* Image */
-.object-fit-center{
-    object-fit: cover;
+.object-fit-center {
+  object-fit: cover;
 }
 
-.rounded-50{
-    border-radius: 50%;
+.rounded-50 {
+  border-radius: 50%;
 }

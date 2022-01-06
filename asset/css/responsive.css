@@ -9,6 +9,10 @@
     height: unset;
   }
 
+  .w-400{
+    width: 100%;
+  }
+
   .floating-left {
     padding: 10px;
   }
@@ -38,8 +42,29 @@
     height: auto;
   }
 
-  .slick-dots{
+  #gallery .col-md-4 {
+    height: 100px;
+  }
+
+  #gallery img {
+    height: 100px;
+  }
+
+  .about-page-container .card {
+    border-radius: 15px;
+  }
+
+  .slick-dots {
     padding-bottom: 20px;
+  }
+
+  .about-page-container .card {
+    height: auto;
+  }
+
+  .library img, .hostel img{
+    height: unset;
+    width: 100%;
   }
 }
 
