@@ -1,5 +1,5 @@
 @media (max-width: 320px) {
-  .newsletter form #email {
+  .footer .newsletter form #email {
     width: 140px !important;
   }
 }
@@ -75,7 +75,7 @@
   }
 
   .footer .newsletter form #email {
-    width: auto;
+    width: 200px;
     height: 45px;
   }
 
