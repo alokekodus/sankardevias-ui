@@ -75,7 +75,7 @@
   }
 
   .footer .newsletter form #email {
-    width: 150px;
+    width: auto;
     height: 45px;
   }
 
