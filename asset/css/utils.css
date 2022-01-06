@@ -5,6 +5,14 @@
     --link-visited : #5D0980;
 }
 
+.gradient-bg{
+    background: linear-gradient(#2B65C2, #5095E4);
+}
+
+.font-dancing-script{
+    font-family: 'Dancing Script', cursive;
+}
+
 .primary-color{
     color: var(--primary-color);
 }
@@ -89,4 +97,8 @@
 /* Image */
 .object-fit-center{
     object-fit: cover;
+}
+
+.rounded-50{
+    border-radius: 50%;
 }

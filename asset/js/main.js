@@ -31,6 +31,21 @@ $(document).ready(function () {
     },
     type: "image",
     // other options
+    zoom: {
+      enabled: true, // By default it's false, so don't forget to enable it
+  
+      duration: 300, // duration of the effect, in milliseconds
+      easing: 'ease-in-out', // CSS transition easing function
+  
+      // The "opener" function should return the element from which popup will be zoomed in
+      // and to which popup will be scaled down
+      // By defailt it looks for an image tag:
+      opener: function(openerElement) {
+        // openerElement is the element on which popup was initialized, in this case its <a> tag
+        // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+        return openerElement.is('img') ? openerElement : openerElement.find('img');
+      }
+    }
   });
 
   // Blog slider
@@ -58,6 +73,52 @@ $(document).ready(function () {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
+          prevArrow: false,
+          nextArrow: false,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          prevArrow: false,
+          nextArrow: false,
+        },
+      },
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ],
+  });
+  
+  
+  
+  // Testimonial slider
+  $(".testimonial-slider").slick({
+    centerMode: true,
+    autoplay: true,
+    autoplaySpeed: 1500,
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 2,
+    slidesToScroll: 2,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
           prevArrow: false,
           nextArrow: false,
         },
