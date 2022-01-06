@@ -33,6 +33,14 @@
   .lead {
     font-size: 12px;
   }
+
+  #testimonial {
+    height: auto;
+  }
+
+  .slick-dots{
+    padding-bottom: 20px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */

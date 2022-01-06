@@ -117,6 +117,8 @@ $(document).ready(function () {
       {
         breakpoint: 600,
         settings: {
+          centerMode: false,
+          autoplay: false,
           slidesToShow: 1,
           slidesToScroll: 1,
           prevArrow: false,
@@ -126,6 +128,8 @@ $(document).ready(function () {
       {
         breakpoint: 480,
         settings: {
+          centerMode: false,
+          autoplay: false,
           slidesToShow: 1,
           slidesToScroll: 1,
           prevArrow: false,
