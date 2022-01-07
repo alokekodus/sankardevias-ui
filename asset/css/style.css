@@ -209,3 +209,21 @@ a:active {
 .footer {
   background: #111;
 }
+
+.accordion-item{
+  border: none;
+  margin-bottom: 20px;
+}
+
+.accordion-button:not(.collapsed){
+  background: none;
+  color: var(--primary-color);
+}
+
+.accordion-body{
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.accordion-header button{
+  font-size: 1.3rem;
+}
