@@ -23,7 +23,7 @@ body {
 }
 
 .offcanvas {
-  background: var(--primary-color);
+  background: #111;
 }
 
 a {
@@ -226,4 +226,8 @@ a:active {
 
 .accordion-header button{
   font-size: 1.3rem;
+}
+
+#terms-page-container ul li{
+  margin-bottom: 20px;
 }
