@@ -13,6 +13,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.navbar .nav-item .nav-link.active{
+  color: var(--primary-color) !important;
+}
+
 .offcanvas ul li {
   font-size: 1.5rem;
   margin-top: 20px;
