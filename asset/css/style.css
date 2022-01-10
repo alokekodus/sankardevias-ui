@@ -235,3 +235,11 @@ a:active {
 #terms-page-container ul li{
   margin-bottom: 20px;
 }
+
+#blog-details-container ul li{
+  margin-bottom: 10px;
+}
+
+#blog-details-container #recent-posts ul{
+  list-style-type: none;
+}

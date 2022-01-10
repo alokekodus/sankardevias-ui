@@ -109,3 +109,13 @@
 .rounded-50 {
   border-radius: 50%;
 }
+
+.rounded-12 {
+  border-radius: 12px;
+}
+
+.sticky-div {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 100px;
+}
