@@ -243,3 +243,7 @@ a:active {
 #blog-details-container #recent-posts ul{
   list-style-type: none;
 }
+
+#news-and-notifications-page-container ol li{
+  margin-bottom: 15px;
+}
