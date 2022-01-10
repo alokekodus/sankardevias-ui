@@ -271,3 +271,7 @@ a:active {
 #courses .card{
   height: 515px;
 }
+
+#free-demo-class-container ul li{
+  margin-bottom: 15px;
+}
