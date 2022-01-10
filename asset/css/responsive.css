@@ -98,6 +98,10 @@
   .footer .main-footer {
     font-size: 10px;
   }
+
+  #courses .card{
+    height: auto;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
