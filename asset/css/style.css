@@ -17,6 +17,10 @@ body {
   color: var(--primary-color) !important;
 }
 
+.navbar .nav-item .nav-link{
+  color: #fff;
+}
+
 .offcanvas ul li {
   font-size: 1.5rem;
   margin-top: 20px;
@@ -28,6 +32,10 @@ body {
 
 .offcanvas {
   background: #111;
+}
+
+.navbar .fa-bars{
+  color: #fff;
 }
 
 a {
@@ -69,7 +77,9 @@ a:active {
   left: 0;
   width: 100%;
   z-index: 999;
-  background: rgba(10, 6, 21, 0.6);
+  background: #111;
+  box-shadow: 0px 5px 5px rgba(17, 17, 17, 0.1);
+  /* background: rgba(10, 6, 21, 0.6); */
   transition: 0.2s ease;
 }
 
@@ -255,6 +265,10 @@ a:active {
   border: 1px solid rgba(17, 17, 17, 0.2);
 }
 
+#enquiry textarea{
+  min-height: 150px;
+}
+
 #enquiry ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #111;
   opacity: 1; /* Firefox */
@@ -274,4 +288,25 @@ a:active {
 
 #free-demo-class-container ul li{
   margin-bottom: 15px;
+}
+
+.floatingEnquiryButton{
+  position: fixed;
+  right: 20px;
+  bottom: 50px;
+}
+
+.floatingEnquiryButton .enquiryBtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 70px;
+  width: 70px;
+  border: none;
+  background: #111;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 30px;
+  box-shadow:  5px 5px 8px 1px rgba(1, 1, 1, .7);
 }

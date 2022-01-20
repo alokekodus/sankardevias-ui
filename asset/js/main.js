@@ -13,7 +13,7 @@ $(document).ready(function () {
   var header = document.getElementById("navbar");
 
   // Get the offset position of the navbar
-  var sticky = 200;
+  var sticky = 100;
 
   // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
   function myFunction() {
