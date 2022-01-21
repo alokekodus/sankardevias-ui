@@ -150,9 +150,6 @@ a:active {
 #testimonial {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(#2b65c2, #5095e4);
-  background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
