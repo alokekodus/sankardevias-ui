@@ -10,6 +10,10 @@
   background: linear-gradient(#2b65c2, #5095e4);
 }
 
+.dark-bg {
+  background: #111;
+}
+
 .font-dancing-script {
   font-family: "Dancing Script", cursive;
 }

@@ -30,6 +30,10 @@ body {
   color: #fff;
 }
 
+.offcanvas ul li a.active {
+  color: var(--primary-color);
+}
+
 .offcanvas {
   background: #111;
 }
