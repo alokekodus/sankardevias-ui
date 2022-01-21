@@ -180,7 +180,7 @@ $(document).ready(function () {
   $(".testimonial-slider").slick({
     centerMode: true,
     autoplay: true,
-    autoplaySpeed: 1500,
+    autoplaySpeed: 3000,
     dots: true,
     infinite: true,
     speed: 300,

@@ -106,11 +106,11 @@ a:active {
 }
 
 .slick-prev:before {
-  color: var(--primary-color);
+  color: #111;
 }
 
 .slick-next:before {
-  color: var(--primary-color);
+  color: #111;
 }
 
 .floating-left {
