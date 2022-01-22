@@ -75,7 +75,7 @@
 }
 
 .drop-caps:first-child:first-letter {
-  color: #903;
+  color: var(--primary-color);
   float: left;
   font-family: Georgia;
   font-size: 75px;
