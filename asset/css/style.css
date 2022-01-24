@@ -181,13 +181,13 @@ a:active {
 .hostel img {
   height: 350px;
 }
-
+/* 
 .library,
 .hostel {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .newsletter {
   background: rgba(0, 0, 0, 0.2);
@@ -314,4 +314,8 @@ a:active {
 
 .overlay{
   background: #111;
+}
+
+.why_saisa_ul li{
+  margin-bottom: 10px;
 }
