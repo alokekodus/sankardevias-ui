@@ -170,7 +170,7 @@ a:active {
 
 .about-page-container .card {
   height: 400px;
-  border-radius: 50px;
+  /* border-radius: 50px; */
 }
 
 .highlights ul li {
