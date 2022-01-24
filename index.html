@@ -781,17 +781,16 @@
                                     placeholder="Name">
                             </div>
                             <div class="mb-3">
-                                <input type="email" class="form-control shadow-none" id="email" name="email"
-                                    placeholder="Email">
-                            </div>
-                            <div class="mb-3">
                                 <input type="text" class="form-control shadow-none" id="phone" name="phone"
                                     placeholder="Phone number">
                             </div>
-                            <div class="mb-3">
-                                <textarea name="message" class="form-control shadow-none" id="message" name="message"
-                                    rows="5" placeholder="Message here"></textarea>
-                            </div>
+                            <select class="form-select mb-3 shadow-none">
+                                <option disabled selected>Interested in</option>
+                                <option value="UPSC">UPSC</option>
+                                <option value="STATE">STATE</option>
+                                <option value="PSC">PSC</option>
+                                <option value="OTHERS">OTHERS</option>
+                              </select>
 
                             <button type="submit" class="btn btn-dark form-control">Submit</button>
                         </form>

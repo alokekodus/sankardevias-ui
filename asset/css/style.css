@@ -259,7 +259,7 @@ a:active {
   margin-bottom: 15px;
 }
 
-#enquiry .form-control{
+#enquiry .form-control, #enquiry .form-select{
   height: 55px;
   border-radius: 0;
   background: transparent;
