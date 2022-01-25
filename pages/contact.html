@@ -115,7 +115,7 @@
         </div>
     </section>
 
-    
+
     <div id="contact-page-container" class="my-5">
         <div class="container">
             <div class="col-md-12">
@@ -158,29 +158,76 @@
                         <p class="fw-bold fs-4">Send Message</p>
                         <form action="#">
                             <div class="form-floating mb-3">
-                                <input type="text" class="form-control shadow-none" id="name" name="name" placeholder="Full name">
+                                <input type="text" class="form-control shadow-none" id="name" name="name"
+                                    placeholder="Full name">
                                 <label for="floatingPassword">Full name</label>
-                              </div>
-                              <div class="form-floating mb-3">
-                                <input type="text" class="form-control shadow-none" id="phone" phone="name" placeholder="Phone">
-                                <label for="floatingPassword">Phone</label>
-                              </div>
+                            </div>
                             <div class="form-floating mb-3">
-                                <input type="email" class="form-control shadow-none" id="email" name="email" placeholder="name@example.com">
+                                <input type="text" class="form-control shadow-none" id="phone" phone="name"
+                                    placeholder="Phone">
+                                <label for="floatingPassword">Phone</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control shadow-none" id="email" name="email"
+                                    placeholder="name@example.com">
                                 <label for="floatingInput">Email address</label>
-                              </div>
-                              <div class="form-floating mb-3">
-                                <textarea class="form-control shadow-none" placeholder="Your message" id="message" name="message" style="height: 130px;"></textarea>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control shadow-none" placeholder="Your message" id="message"
+                                    name="message" style="height: 130px;"></textarea>
                                 <label for="floatingTextarea">Your message</label>
-                              </div>
-                              <button type="submit" class="btn primary-bg shadow-none py-2 px-4">SEND</button>
+                            </div>
+                            <button type="submit" class="btn primary-bg shadow-none py-2 px-4">SEND</button>
                         </form>
                     </div>
                 </div>
             </div>
+
+            <div class="col-md-12 bg-light p-md-5 p-3 my-5">
+                <p class="fw-bold fs-3">Career</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary shadow-none" data-bs-toggle="modal"
+                    data-bs-target="#sendResumeModal">
+                    <i class="fas fa-arrow-right"></i> Upload Resume
+                </button>
+            </div>
         </div>
     </div>
 
+    <!-- Upload Resume Modal -->
+    <div class="modal fade" id="sendResumeModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="sendResumeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content rounded-0 border-0">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="sendResumeModalLabel">Upload Resume</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="uploadResumeForm" action="#" method="post">
+
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control shadow-none" id="name" name="name" placeholder="Enter name" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control shadow-none" id="email" name="email"
+                                placeholder="Enter valid email" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Upload Resume</label>
+                            <input type="file" class="form-control shadow-none" id="attachment" name="attachment" required>
+                        </div>
+
+                        <button type="submit" class="btn mb-3 px-5 py-2 rounded-0">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Footer -->
     <footer class="footer mt-auto text-light pt-5 px-2 gradient-bg">
@@ -207,8 +254,8 @@
         <div class="pb-3 main-footer">
             <div class="container text-center">
                 <p class="mb-0"><a class="text-light" href="faq.html">FAQ</a> | <a class="text-light"
-                    href="privacy.html">Privacy
-                    Policy</a> | <a class="text-light" href="terms.html">Terms & conditions</a></p>
+                        href="privacy.html">Privacy
+                        Policy</a> | <a class="text-light" href="terms.html">Terms & conditions</a></p>
                 <p class="text-light mb-0">© All Rights Reserved | Sankardev IAS Academy @ 2022</p>
                 <p class="text-light mb-0">Designed & developed by <a class="text-light" href="#">Ekodus</a></p>
             </div>
@@ -219,8 +266,10 @@
     <!-- Floating social buttons left -->
     <div class="floating-left shadow">
         <ul>
-            <li><a target="_blank" href="https://www.facebook.com/sankardev.ias/"><i class="fab fa-facebook hover"></i></a></li>
-            <li><a target="_blank" href="https://www.youtube.com/channel/UCWwAZuUayCRowcTkWkXDwqQ"><i class="fab fa-youtube hover"></i></a></li>
+            <li><a target="_blank" href="https://www.facebook.com/sankardev.ias/"><i
+                        class="fab fa-facebook hover"></i></a></li>
+            <li><a target="_blank" href="https://www.youtube.com/channel/UCWwAZuUayCRowcTkWkXDwqQ"><i
+                        class="fab fa-youtube hover"></i></a></li>
             <li><a target="_blank" href="#"><i class="fab fa-twitter hover"></i></a></li>
         </ul>
     </div>

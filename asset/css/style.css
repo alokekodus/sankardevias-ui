@@ -259,7 +259,7 @@ a:active {
   margin-bottom: 15px;
 }
 
-#enquiry .form-control, #enquiry .form-select{
+#enquiry .form-control, #enquiry .form-select, #uploadResumeForm .form-control{
   height: 55px;
   border-radius: 0;
   background: transparent;
@@ -275,7 +275,7 @@ a:active {
   opacity: 1; /* Firefox */
 }
 
-#enquiry button{
+#enquiry button, #uploadResumeForm button{
   background: var(--primary-color) !important;
   border: 0 !important;
   text-transform: uppercase;
