@@ -71,7 +71,7 @@ a:active {
 }
 
 .carousel-item img {
-  height: 80vh;
+  height: 90vh;
   object-fit: cover;
 }
 
@@ -318,4 +318,11 @@ a:active {
 
 .why_saisa_ul li{
   margin-bottom: 10px;
+}
+
+
+.faculty img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
