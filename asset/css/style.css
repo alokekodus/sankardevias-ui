@@ -71,7 +71,7 @@ a:active {
 }
 
 .carousel-item img {
-  height: 90vh;
+  height: 100vh;
   object-fit: cover;
 }
 
