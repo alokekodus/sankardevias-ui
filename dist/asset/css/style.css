@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
+/* @import url(/asset/css/utils.css); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar .nav-item .nav-link.active{
+  color: var(--primary-color) !important;
+}
+
+.navbar .nav-item .nav-link{
+  color: #fff;
+}
+
+.offcanvas ul li {
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+.offcanvas ul li a {
+  color: #fff;
+}
+
+.offcanvas ul li a.active {
+  color: var(--primary-color);
+}
+
+.offcanvas {
+  background: #111;
+}
+
+.navbar .fa-bars{
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+/* unvisited link */
+a:link {
+  color: var(--link-color);
+}
+
+/* visited link */
+a:visited {
+  color: var(--link-color);
+}
+
+/* mouse over link */
+a:hover {
+  color: var(--primary-color) !important;
+}
+
+button.primary-bg:hover, a.primary-bg:hover {
+  background: #111;
+  color: #fff !important;
+}
+
+/* selected link */
+a:active {
+  color: var(--primary-color);
+}
+
+.carousel-item img {
+  height: 80vh;
+  object-fit: cover;
+}
+
+.header-sticky {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background: #111;
+  box-shadow: 0px 5px 5px rgba(17, 17, 17, 0.1);
+  /* background: rgba(10, 6, 21, 0.6); */
+  transition: 0.2s ease;
+}
+
+/* .header-sticky .nav-item .nav-link:hover {
+  color: #111 !important;
+  text-decoration: underline;
+} */
+
+#cards .card,
+.album .card {
+  border: none;
+}
+
+#cards ol li {
+  margin-bottom: 20px;
+}
+
+.slick-slider .slick-slide {
+  padding: 15px 15px;
+}
+
+.slick-prev:before {
+  color: #111;
+}
+
+.slick-next:before {
+  color: #111;
+}
+
+.floating-left {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background: #fff;
+  padding: 20px 12px;
+  border-radius: 0 12px 12px 0;
+  z-index: 99;
+}
+
+.floating-left ul {
+  margin: 0;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.floating-left ul :not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.floating-left ul li .fab {
+  font-size: 2rem;
+}
+
+#gallery .col-md-4 {
+  height: 300px;
+  overflow: hidden;
+}
+
+#gallery img {
+  height: 300px;
+}
+
+#testimonial {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#testimonial .review-block img {
+  transform: rotate(-5deg);
+}
+#testimonial .review-block .card {
+  /* background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px); */
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.about-page-container .card {
+  height: 400px;
+  /* border-radius: 50px; */
+}
+
+.highlights ul li {
+  margin-bottom: 10px;
+}
+
+.library img,
+.hostel img {
+  height: 350px;
+}
+/* 
+.library,
+.hostel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.newsletter {
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 25px;
+  /* border: 1px solid rgba(255, 255, 255, 0.18); */
+}
+
+.newsletter form #email {
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 55px;
+  width: 400px;
+  border-radius: 35px 0 0 35px;
+  border-right: none;
+  border-color: #fff;
+  background: transparent;
+}
+
+.newsletter form button {
+  border-color: #fff;
+  height: 55px;
+  border-radius: 0 35px 35px 0;
+  background: #111;
+}
+
+.newsletter form button:hover {
+  border-color: #fff;
+}
+
+.footer {
+  background: #111;
+}
+
+.accordion-item{
+  border: none;
+  margin-bottom: 20px;
+}
+
+.accordion-button:not(.collapsed){
+  background: none;
+  color: var(--primary-color);
+}
+
+.accordion-body{
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.accordion-header button{
+  font-size: 1.3rem;
+}
+
+#terms-page-container ul li{
+  margin-bottom: 20px;
+}
+
+#blog-details-container ul li{
+  margin-bottom: 10px;
+}
+
+#blog-details-container #recent-posts ul{
+  list-style-type: none;
+}
+
+#news-and-notifications-page-container ol li{
+  margin-bottom: 15px;
+}
+
+#enquiry .form-control, #enquiry .form-select, #uploadResumeForm .form-control{
+  height: 55px;
+  border-radius: 0;
+  background: transparent;
+  border: 1px solid rgba(17, 17, 17, 0.2);
+}
+
+#enquiry textarea{
+  min-height: 150px;
+}
+
+#enquiry ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #111;
+  opacity: 1; /* Firefox */
+}
+
+#enquiry button, #uploadResumeForm button{
+  background: var(--primary-color) !important;
+  border: 0 !important;
+  text-transform: uppercase;
+  color: #111;
+  font-weight: 500;
+}
+
+/* #courses .card{
+  height: 515px;
+} */
+
+#free-demo-class-container ul li, #course-details-container ul li, #online-course ul li{
+  margin-bottom: 15px;
+}
+
+.floatingEnquiryButton{
+  position: fixed;
+  right: 20px;
+  bottom: 50px;
+}
+
+.floatingEnquiryButton .enquiryBtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 70px;
+  width: 70px;
+  border: none;
+  background: #111;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 30px;
+  box-shadow:  5px 5px 8px 1px rgba(1, 1, 1, .7);
+}
+
+.overlay{
+  background: #111;
+}
+
+.why_saisa_ul li{
+  margin-bottom: 10px;
+}
